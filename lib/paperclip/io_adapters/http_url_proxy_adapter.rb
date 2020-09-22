@@ -1,3 +1,5 @@
+require "addressable/uri"
+
 module Paperclip
   class HttpUrlProxyAdapter < UriAdapter
     def self.register
